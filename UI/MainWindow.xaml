@@ -23,7 +23,7 @@
             </DataTemplate.Triggers>
         </DataTemplate>
         <DataTemplate x:Key="ReferenceTemplate" DataType="{x:Type logic:Vertex}">
-            <Border x:Name="Border" BorderBrush="DarkSlateGray" Background="LightGray" BorderThickness="3" Padding="10">
+            <Border x:Name="Border" BorderBrush="DarkSlateGray" Background="DarkGray" BorderThickness="3" Padding="10">
                 <TextBlock x:Name="Text" Text="{Binding Path=Reference.Name, Mode=OneWay}" Foreground="Red" FontSize="14pt" FontFamily="Consolas" />
             </Border>
             <DataTemplate.Triggers>
