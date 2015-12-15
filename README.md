@@ -16,6 +16,7 @@ We also intelligently render unreachable commits to help people understand hard 
 ### Where do I get it?
 
 Pre-built binaries are available at https://github.com/Readify/GitViz/releases
+or clone the sourcce
 
 ### Release Quality
 
